@@ -1,0 +1,280 @@
+INCIDENT REPORT= WHEN THERE IS BUG IN PROD IT GOES TO INCIDENT MANAGER. HE  ASSIGNS TO QA
+
+AS A QA I TESTED AGAIN IF THERE IS BUG I REPORTED TO DEV
+
+
+WWW.DEV-ABANK.COM
+
+WWW.QA-ABANK.COM
+WWW.STAGE-ABANK.COM
+WWW.UAT-ABANK.COM
+
+WWW.ABANK.COM
+
+
+REPRODUCE= DO THE SAME THING AGAIN
+
+I REPRODUCE THE INCIDENT/ BUG IN PROD IF THERE IS BUG I REPORT TO DEVS
+
+IF NOT I CLOSE THE TICKET
+
+WHEN WE FIND ANY FAILURE WE SHOULD NOT  REPORT RIGHT AWAY
+WE HAVE TO REPRODUCE TO MAKE SURE THERE IS BUG.
+
+
+500  TEST CASES
+498 PASS
+2 FAIL
+
+
+=================================
+JIRA== PROJECT  MANAGEMENT TOOL
+
+======================
+
+
+1. CHECK MANUALLY
+
+2. IF MANUALLY  WORKS  FINE  IT  MEANS  THERE IS ISSUE IN YOUR  CODE
+
+3. WHAT IF MANUALLY ALSO  FAILING
+
+IF THERE IS  BUG  WHAT IS NEXT  STEP?
+
+=====================================
+BA  CREATES  USER STORIES  
+PO PRIORITIZES THE USER STORIES
+
+
+ACCEPTANCE  CRITERIA== DETAIL  INFORMATION  ABOUT  REQUIREMENT
+1. 
+
+
+
+12 PING PON BALLS
+1 IS HEAVIER THEN  OTHERS
+
+
+YOU HAVE SCALE
+YOU CAN  TRY  3  TIMES
+YOU HAVE T0 FIND HEAVIEST ONE
+
+ 11 ARE ==10 GR
+1==20 GR
+
+
+================================================================
+
+
+ RETEST AND REGRESSION?
+
+RETEST = WHEN WE FIND A BUG WE CREATE A TICKET  AND AFTER DEV FIXES THE BUG WE RETEST
+REGRESSION = RUNNING WHOLE APPLICATION (TEST CASES)
+
+
+IF OUR REGRESSION SUITE IS AUTOMATED WE SHOULD EXECUTE IT.
+
+
+WE RUN OUR  SMOKE AND  REGRESSION IN CI/CD (JENKINS) TOOL AND  IF THERE  ARE A NY  FAILURES  IT  SENDS  EMAIL NOTIFICATIONS.
+
+
+
+==========================================================
+10/31/19
+
+in scope= it means  included
+out scope = it means excluded
+=======================================
+
+we  tes  database  to make sure  data is correct
+DATABASE= WHERE  WE STORE DATA
+
+
+WHAT IS  RTM?
+WHEN  WE  WRITE  TEST  CASES  WE HAVE TO MAKE SURE  WE  COVER  EACH AND  EVERY PART  OF  REQUIREMENT
+
+HOW DO YOU  MAKE SURE  YOU COVERED EVERYTHING?
+BY  DOING PEER  REVIEW.
+
+
+
+
+
+
+================================================
+
+we  work in  agile  env
+we  have  sprint 
+lentgh  of sprint  are  3  weeks
+we  do  release  every after  2  sprints
+
+we  follow all agile  ceremonies/meetings
+1. sprint  planning
+2. sprint  retrospective
+3. sprint  grooming
+4. demo
+
+
+we  do  daily  stand  up  meeting
+
+we  have  scrum  team  
+ you  describe  scrum  team/ 
+
+6 dev 
+3  tester = 2 automation  1  manual
+1 BA
+1 SCRUM MASTER
+
+QA  PROCCESS= EVERY SP WE  GET
+
+1. USER STORY
+2. WE  ANALYZE
+3. WE  WRITE  TEST CASE
+4. WE DO PEER REVIEW
+5. WE  EXECUTE  TEST CASE
+6. IF THERE IS  BUG  WE CREATE  TICKET
+ 
+
+========================================================
+11/7/19
+
+
+JIRA ==PROJECT MANAGEMENT TOOL
+
+HP ALM
+BUGZILLA
+
+
+
+=========================================
+
+1.  WHO  DOES NOT HAVE  ACCESS PLS  PING/TEXT IN  SLACK TO ME
+2.  WHO HAS  JIRA ACCES  BUT  THEY CANT  SEE THEIR NAMES  AGAIN  PLEASE  LET ME KNOW
+
+
+TASK:
+
+1.  CREATE  USER STORY IN BACKLOG 
+2.  MOVE  TO THE SPRTINT  BACKLOG
+3.  CREATE  TEST CASES AND  LINK  THE THE USER STORY
+4.  CREATE  NEGATIVE  TEST  CASE AND LINK  TO THE USER  STORY
+
+
+NOTE:  THERE  CAN BE MORE THEN  ONE  TEST CASE  FOR ONE USER  STORY
+
+
+
+
+1. AMAZON
+2. KAYAK.COM
+3. ORBITZ.COM
+
+
+===========================================
+
+1. GO TO  BACKLOG
+2. CREATE  USER STORY ==As a < type of user >, I want < some goal > so that < some reason >.
+3. MOVE  USER STORY  FROM  BACKLOG  TO  SPRINT  BACKLOG
+4. GO TO ACTIVE SPRINT
+5. CLICK ON USER STORY ==> IT SHOULD  OPEN  USER STORY  DETAILS  PAGE
+6. CLICK ON  CREATE  BUTTON
+7. SELECT YOUR  PROJECT
+8. SELECT ISSUE  TYPE (TEST)
+9. WRITE NAME OF TEST CASE
+10.  CLICK ON LINK ISSUE AND  ENTER  YOUR  USER STORY  NUMBER  EXAMPLE:CC-101
+11. REFRESH YOUR USER STORY PAGE 
+12. YOU SHOULD BE ABLE TO SEE YOUR TEST CASE UNDER YOUR USER STORY
+
+==============================================================================================
+
+GIT
+
+COMMIT== IT  SAVES TO LOCAL  REPOSITORY
+COMMIT AND PUSH= IT SAVES TO LOCAL AND PUSHES
+
+git merge  and  pull Request
+
+PULL REQUEST= GIVES  US  TO ASSIGN SOMEONE  TO REVIEW  OUR  CODE
+CLONE= COPY
+
+ping=
+
+BRANCH=
+
+
+=============================================================
+
+TASK:
+
+ 1. CREATE  BRAND  USER STORY IN  BACKLOG
+ 2. MOVE TO CURRENT SPRINT
+ 3. CREATE  2-3 TEST CASES   AND  LINK  TO THAT  USER STORY
+ 4. WRITE  TEST CASES IN EXCEL  FILE  AND  UPLOAD  TO THE JIRA
+
+
+===================================================
+EVERY SPRINT  QA LEAD CREATES 
+
+TEST PLAN
+TEST  SET
+TEST EXECUTION
+
+THEN  MOVE TO CURRENT SPRINT  ====> ONY  TEAM LEADS SHOULD  CREATE  THEM
+
+
+TASK 2
+
+PLEASE  
+
+1. CREATE NEW  USER  STORY 
+2. MOVE TO CURRENT SPRINT
+3. CREATE  TEST CASE AND  LINK  TO  USER STORY, TEST SET, TEST  EXECUTION  AND TEST PLAN
+4. OPEN  YOUR  TEST  EXECUTUIN AND  ADD YOUR  TEST  SET.
+5. EXECUTE YOUR TEST CASES
+
+
+PER  SPRINT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

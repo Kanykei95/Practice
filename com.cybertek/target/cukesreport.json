@@ -1,0 +1,196 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 459606924,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Student creation with API E2E scenario",
+        "description": "",
+        "id": "student-list-api;student-creation-with-api-e2e-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 100033873,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3614259672,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user creates student with following data \"/student/create\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/student/create\"",
+                  "offset": 41
+                }
+              ],
+              "location": "StudentsListAPI_step_defs.user_creates_student_with_following_data(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "Lionelio"
+                ]
+              },
+              {
+                "cells": [
+                  "lastName",
+                  "Messi"
+                ]
+              },
+              {
+                "cells": [
+                  "emailAddress",
+                  "messi@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "joinDate",
+                  "01/01/2010"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "123jbr"
+                ]
+              },
+              {
+                "cells": [
+                  "subject",
+                  "Math"
+                ]
+              },
+              {
+                "cells": [
+                  "phone",
+                  "3124756521"
+                ]
+              },
+              {
+                "cells": [
+                  "gender",
+                  "Male"
+                ]
+              },
+              {
+                "cells": [
+                  "admissionNo",
+                  "10"
+                ]
+              },
+              {
+                "cells": [
+                  "birthDate",
+                  "01/01/1990"
+                ]
+              },
+              {
+                "cells": [
+                  "major",
+                  "Football"
+                ]
+              },
+              {
+                "cells": [
+                  "batch",
+                  "10"
+                ]
+              },
+              {
+                "cells": [
+                  "section",
+                  "LaLigA"
+                ]
+              },
+              {
+                "cells": [
+                  "premanentAddress",
+                  "921 W Huron St."
+                ]
+              },
+              {
+                "cells": [
+                  "companyName",
+                  "Barcelona"
+                ]
+              },
+              {
+                "cells": [
+                  "title",
+                  "Goatie"
+                ]
+              },
+              {
+                "cells": [
+                  "startDate",
+                  "01/02/2010"
+                ]
+              },
+              {
+                "cells": [
+                  "city",
+                  "Barcelona"
+                ]
+              },
+              {
+                "cells": [
+                  "street",
+                  "13 Hurnon"
+                ]
+              },
+              {
+                "cells": [
+                  "zipCode",
+                  "60742"
+                ]
+              },
+              {
+                "cells": [
+                  "state",
+                  "IL"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@createStudent"
+          }
+        ]
+      }
+    ],
+    "name": "Student List API",
+    "description": "",
+    "id": "student-list-api",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/api/studentsListByAPI.feature",
+    "tags": []
+  }
+]

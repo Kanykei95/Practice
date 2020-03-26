@@ -1,0 +1,102 @@
+[INFO ] 2020-03-05 19:11:26.822 [main] TestLogs - on dzone.com
+[WARN ] 2020-03-05 19:11:26.824 [main] TestLogs - login in to application
+[INFO ] 2020-03-05 19:19:40.663 [main] TestLogs - on dzone.com
+[WARN ] 2020-03-05 19:19:40.665 [main] TestLogs - login in to application
+[INFO ] 2020-03-05 19:24:06.859 [main] TestLogs - on dzone.com
+[WARN ] 2020-03-05 19:24:06.861 [main] TestLogs - login in to application
+[ERROR] 2020-03-05 19:24:06.861 [main] TestLogs - login in to application
+[INFO ] 2020-03-05 19:25:23.459 [main] TestLogs - on dzone.com
+[WARN ] 2020-03-05 19:25:23.461 [main] TestLogs - login in to application
+[WARN ] 2020-03-05 19:25:23.461 [main] TestLogs - on dzone.com
+[ERROR] 2020-03-05 19:25:23.461 [main] TestLogs - login in to application
+[INFO ] 2020-03-05 19:37:02.240 [main] Log - start of the test 
+[INFO ] 2020-03-05 19:37:02.242 [main] Log - user is on amazon
+[WARN ] 2020-03-05 19:37:02.242 [main] Log - logging in to amazon
+[INFO ] 2020-03-05 19:42:14.948 [main] Log - Scenario start point 
+[INFO ] 2020-03-05 19:42:14.950 [main] Log - user is on amazon
+[WARN ] 2020-03-05 19:42:14.950 [main] Log - logging in to amazon
+[INFO ] 2020-03-05 19:46:48.954 [main] Log - Scenario start point 
+[INFO ] 2020-03-05 19:46:54.979 [main] Log - user on whatever the url that is given
+[INFO ] 2020-03-05 19:46:55.010 [main] Log - header taken Gradle vs. Maven
+[INFO ] 2020-03-05 19:46:55.721 [main] Log - user on whatever the url that is given
+[INFO ] 2020-03-05 19:46:55.740 [main] Log - header 2 is taken API Security Weekly: Issue #71
+[WARN ] 2020-03-05 19:46:55.741 [main] Log - Comparing 2 data
+[INFO ] 2020-03-05 19:49:36.359 [main] Log - Scenario start point 
+[INFO ] 2020-03-05 19:49:40.510 [main] Log - user on https://dzone.com/articles/gradle-vs-maven
+[INFO ] 2020-03-05 19:49:40.535 [main] Log - header taken Gradle vs. Maven
+[INFO ] 2020-03-05 19:49:41.485 [main] Log - user on https://dzone.com/articles/api-security-weekly-issue-71
+[INFO ] 2020-03-05 19:49:41.501 [main] Log - header 2 is taken API Security Weekly: Issue #71
+[WARN ] 2020-03-05 19:49:41.502 [main] Log - Comparing 2 data
+[INFO ] 2020-03-05 20:58:59.391 [main] Log - Scenario start point 
+[INFO ] 2020-03-05 20:59:03.134 [main] Log - user on https://dzone.com/articles/gradle-vs-maven
+[INFO ] 2020-03-05 20:59:03.167 [main] Log - header taken Gradle vs. Maven
+[INFO ] 2020-03-05 20:59:03.876 [main] Log - user on https://dzone.com/articles/api-security-weekly-issue-71
+[INFO ] 2020-03-05 20:59:03.892 [main] Log - header 2 is taken API Security Weekly: Issue #71
+[WARN ] 2020-03-05 20:59:03.892 [main] Log - Comparing 2 data
+[INFO ] 2020-03-05 21:00:33.114 [main] Log - Scenario start point 
+[INFO ] 2020-03-05 21:00:36.975 [main] Log - Scenario start point 
+[INFO ] 2020-03-05 21:00:40.030 [main] Log - Scenario start point 
+[INFO ] 2020-03-05 21:00:42.817 [main] Log - Scenario start point 
+[INFO ] 2020-03-05 21:00:46.050 [main] Log - Scenario start point 
+[INFO ] 2020-03-05 21:00:49.858 [main] Log - Scenario start point 
+[INFO ] 2020-03-05 21:05:06.519 [main] Log - Scenario start point 
+[INFO ] 2020-03-05 21:05:10.819 [main] Log - user on https://dzone.com/articles/gradle-vs-maven
+[INFO ] 2020-03-05 21:05:10.845 [main] Log - header taken Gradle vs. Maven
+[INFO ] 2020-03-05 21:05:11.933 [main] Log - user on https://dzone.com/articles/api-security-weekly-issue-71
+[INFO ] 2020-03-05 21:05:11.952 [main] Log - header 2 is taken API Security Weekly: Issue #71
+[WARN ] 2020-03-05 21:05:11.953 [main] Log - Comparing 2 data
+[INFO ] 2020-03-07 16:25:35.629 [main] Log - Scenario start point 
+[INFO ] 2020-03-21 16:56:27.651 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 12:53:08.224 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 12:56:34.776 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 12:58:04.903 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 13:18:52.486 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 13:33:52.574 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 13:40:55.507 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 13:43:58.188 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 13:45:05.779 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 13:45:57.069 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 13:52:02.631 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 13:55:34.723 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 13:56:32.793 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 13:57:03.106 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 13:59:42.596 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 13:59:45.379 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 13:59:49.757 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 13:59:49.769 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 14:00:48.845 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 14:00:52.622 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 14:00:56.392 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 14:01:02.249 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 14:01:05.861 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 14:01:10.687 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 14:06:54.828 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 14:08:16.524 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 14:08:19.173 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 14:24:58.838 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 14:42:31.093 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 14:43:37.596 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 14:56:33.669 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 15:02:32.038 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 15:02:59.535 [main] Log - Scenario start point 
+[INFO ] 2020-03-22 15:08:31.957 [main] Log - Scenario start point 
+[INFO ] 2020-03-25 14:20:05.832 [main] Log - Scenario start point 
+[INFO ] 2020-03-25 19:10:15.304 [main] Log - Scenario start point 
+[INFO ] 2020-03-25 19:10:19.009 [main] Log - Scenario start point 
+[INFO ] 2020-03-25 19:11:49.222 [main] Log - Scenario start point 
+[INFO ] 2020-03-25 19:11:50.571 [main] Log - Scenario start point 
+[INFO ] 2020-03-25 19:34:10.967 [main] Log - Scenario start point 
+[INFO ] 2020-03-25 19:34:12.233 [main] Log - Scenario start point 
+[INFO ] 2020-03-25 19:56:29.740 [main] Log - Scenario start point 
+[INFO ] 2020-03-25 19:59:24.067 [main] Log - Scenario start point 
+[INFO ] 2020-03-25 20:00:44.799 [main] Log - Scenario start point 
+[INFO ] 2020-03-25 20:01:12.453 [main] Log - Scenario start point 
+[INFO ] 2020-03-25 20:04:54.849 [main] Log - Scenario start point 
+[INFO ] 2020-03-25 20:04:58.677 [main] Log - Scenario start point 
+[INFO ] 2020-03-25 20:05:02.082 [main] Log - Scenario start point 
+[INFO ] 2020-03-25 20:05:05.858 [main] Log - Scenario start point 
+[INFO ] 2020-03-25 20:05:14.832 [main] Log - Scenario start point 
+[INFO ] 2020-03-25 20:05:25.246 [main] Log - Scenario start point 
+[INFO ] 2020-03-25 20:05:59.334 [main] Log - Scenario start point 
+[INFO ] 2020-03-25 20:06:01.710 [main] Log - Scenario start point 
+[INFO ] 2020-03-25 20:29:27.699 [main] Log - Scenario start point 

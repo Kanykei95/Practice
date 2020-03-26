@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="87d543cb-f1a4-4186-b310-6ade7fa6a15c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Framework_Practice/k.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Framework_Practice/kana.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Framework_Practice/kana2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Framework_Practice/src/test/java/runners/CukesRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/review.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Actions/AmazonTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Actions/HoverInClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Alerts/AlertsPractice1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/FrameWork/DriverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/FrameWork/PropertiesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/FrameWork/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/FrameWork/SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Iframe/FirstPractive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/MentoringTuesday/Assignment1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Merve/First_Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Merve/IbrayimCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/PageObjectModelTests/LoginTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/PageObjectModelTests/smartBear_Login_tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Pages_POM/Amazon_Pages/AmazonLandingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Pages_POM/Practice_Cybertek_Pages/DynamicLoading1Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Pages_POM/Practice_Cybertek_Pages/DynamicLoading2Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Pages_POM/Practice_Cybertek_Pages/HoverInClassPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Pages_POM/VyTrack_Pages/VyTrackLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Pages_POM/smartBear_Pages/Login_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/ReviewOfUtilities_Esen/Esen_Driver_ShortCut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/ReviewOfUtilities_Esen/Essen_FakeDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/ReviewOfUtilities_Esen/GoogleHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/ReviewOfUtilities_Esen/ReviewFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Selenium/AutomationPractieOnline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Selenium/CreatingXpathInsideTableNEWTOPIC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Selenium/DropDown/FirstPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Selenium/DropDown/SelectingDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Selenium/DropDown/SelectingValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Selenium/DropDown/SelectingValueFromNonSelectDropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Selenium/DropDown/SmartBearMethodsImportant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Selenium/DropDown/SmartBearSoftWareVerification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Selenium/DropDown/SmartBearSoftwareOrderPlacingTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Selenium/DropDown/SmartBearTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Selenium/FindElements/FIndELementsTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Selenium/JavaFaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Selenium/Practice2XPATH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Selenium/PracticeJan25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Selenium/PracticeJan25Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Selenium/PracticeSeleniumEasyCheckbox2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Selenium/PracticeXPATH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Synchronization/ExplicitTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Synchronization/ImplicitWaitTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Synchronization/ThreadSleepTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/TestiNG/DependenciesTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/TestiNG/FirstTEstNGClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/TestiNG/HardAssestions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/TestiNG/OrderOFThings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/TestiNG/VyTrackLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Utilities/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Utilities/SeleniumUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/Utilities/VytrackUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/VyTrack/CreateCalendaerBtnTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/VyTrack/CreatesCalendarEventsDropdownTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/VyTrack/CurrentDateANDTimeCODE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/VyTrack/EmreCodeForVErifyingDateAndTimeHW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/VyTrack/LogCallTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/VyTrack/VerifyingDateAndTimeHW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/WIndowHandle/PrracticeOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chicagoseleniumb14/test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chicago14cucumberjunit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/Comparing_Two_Different_Headers/2_headers.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/api/studentsListByAPI.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/api/teacherDeletingService.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/api/teacherDetailsE2E.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/smartBear_Features/smartBearLogin.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/smartBear_Features/smartBearOrders.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/vyTrack_Features/CreateCalendarEventsPage.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/vyTrack_Features/google.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Resources/features/wikipedia_features/wiki.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Resources/log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/APIModels/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/APIModels/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/APIModels/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/APIModels/RequestBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/APIModels/ResponseBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/APIModels/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/APIModels/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/APIModels/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Aybek/DataBase_Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Aybek/TestDatabaseUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Aybek/mappingData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FakeAPI/InstaTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FakeAPI/Instagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FakeAPI/InstagramUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FakeAPI/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Mobile/Appium_Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RealAPI_Test/JacksonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RealAPI_Test/LastAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RealAPI_Test/MyAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RealAPI_Test/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RealAPI_Test/TeacherAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RealAPI_Test/Util_Testing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Review/Ten.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/CybertekHomepage/CBTHHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Etsy_Pages/Etsy_HOmePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Wiki_Page/WIki_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/google_pages/GoogleLandingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/smartBear_Page/SBOrderPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/smartBear_Page/SBViewAllOrdersPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/smartBear_Page/SB_Landing_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/smartBear_Page/SB_Login_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/vyTrackPage/CreatecalendarEventsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/vyTrackPage/DashboardsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/vyTrackPage/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/CukesRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/Etsy_CukesRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/SmartBearRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/Wiki_Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/Esen/Esen_TAsk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/Wikipedia_stepDefs/wiki_stepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/cybertekTraining_setpDefs/StudentsListAPI_step_defs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/cybertekTraining_setpDefs/TeacherDeletingService_stepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/cybertekTraining_setpDefs/teacherDetailE2E_step_defs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/etsy_stepDefs/EtsySearch_stepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/google_Steps/Google_stepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/smartBear_Step/SmartBear_step_def.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/smartBear_Step/Smartbear_Order_stepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/vyTrackSteps/CreateCalendarEventsPageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/API_Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DataBaseUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/SeleniumUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TempStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestLogs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/extentReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice With Jurabek/src/First_Test_Case.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chicagoseleniumb14/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chicagoseleniumb14/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chicagoseleniumb14/src/test/java/MentoringTuesday/AmazonPage.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Kotlin File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Xa5I3tBhzEoY85hD3jzAMOKzGN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/Resources/features/VyTrack_Features" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CukesRunner">
+    <configuration name="InstaTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FakeAPI.InstaTesting" />
+      <module name="chicago14cucumberjunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FakeAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Appium_Demo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chicago14cucumberjunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mobile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Mobile" />
+      <option name="MAIN_CLASS_NAME" value="Mobile.Appium_Demo" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Appium_Demo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chicago14cucumberjunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mobile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Mobile" />
+      <option name="MAIN_CLASS_NAME" value="Mobile.Appium_Demo" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chicago14cucumberjunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.CukesRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Util_Testing.authetification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chicago14cucumberjunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RealAPI_Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RealAPI_Test" />
+      <option name="MAIN_CLASS_NAME" value="RealAPI_Test.Util_Testing" />
+      <option name="METHOD_NAME" value="authetification" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.Util_Testing.authetification" />
+        <item itemvalue="JUnit.Appium_Demo.test" />
+        <item itemvalue="JUnit.Appium_Demo" />
+        <item itemvalue="Application.InstaTesting" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87d543cb-f1a4-4186-b310-6ade7fa6a15c" name="Default Changelist" comment="" />
+      <created>1581271281660</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581271281660</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="99" y="190" key="#File_and_Code_Templates" timestamp="1584294020185">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="99" y="190" key="#File_and_Code_Templates/0.0.1680.1050@0.0.1680.1050" timestamp="1584294020185" />
+    <state x="440" y="190" key="#Plugins" timestamp="1581789148403">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="190" key="#Plugins/0.0.1680.1050@0.0.1680.1050" timestamp="1581789148403" />
+    <state x="439" y="189" key="#Project_Structure" timestamp="1581273345010">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="439" y="189" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1581273345010" />
+    <state x="440" y="202" key="#Updates" timestamp="1581273902125">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="202" key="#Updates/0.0.1680.1050@0.0.1680.1050" timestamp="1581273902125" />
+    <state x="528" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585180309583">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="528" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1585180309583" />
+    <state x="1021" y="233" key="#com.intellij.ide.util.MemberChooser" timestamp="1584294728471">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="1021" y="233" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1584294728471" />
+    <state x="528" y="268" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584300829093">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="528" y="268" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584300829093" />
+    <state x="536" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581877178662">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state x="536" y="62" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1581475114983" />
+    <state x="536" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1680.972@0.23.1680.972" timestamp="1581877178662" />
+    <state width="976" height="183" key="GridCell.Tab.0.bottom" timestamp="1585186923061">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="976" height="183" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585186923061" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.23.1680.972@0.23.1680.972" timestamp="1581876845668" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.23.1680.973@0.23.1680.973" timestamp="1581879328472" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.23.1680.974@0.23.1680.974" timestamp="1581879756432" />
+    <state width="1638" height="313" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1585165807391" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.23.1680.976@0.23.1680.976" timestamp="1581880233908" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.23.1680.979@0.23.1680.979" timestamp="1581889268624" />
+    <state width="1638" height="313" key="GridCell.Tab.0.bottom/0.23.1680.980@0.23.1680.980" timestamp="1584909418419" />
+    <state width="1638" height="313" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1584910552881" />
+    <state width="947" height="362" key="GridCell.Tab.0.bottom/0.23.1680.982@0.23.1680.982" timestamp="1585007799388" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.23.1680.983@0.23.1680.983" timestamp="1581809247995" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.23.1680.984@0.23.1680.984" timestamp="1581869288748" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.23.1680.985@0.23.1680.985" timestamp="1581869439320" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.23.1680.986@0.23.1680.986" timestamp="1581869489335" />
+    <state width="976" height="183" key="GridCell.Tab.0.center" timestamp="1585186923060">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="976" height="183" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585186923060" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.23.1680.972@0.23.1680.972" timestamp="1581876845667" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.23.1680.973@0.23.1680.973" timestamp="1581879328471" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.23.1680.974@0.23.1680.974" timestamp="1581879756431" />
+    <state width="1638" height="313" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1585165807391" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.23.1680.976@0.23.1680.976" timestamp="1581880233907" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.23.1680.979@0.23.1680.979" timestamp="1581889268623" />
+    <state width="1638" height="313" key="GridCell.Tab.0.center/0.23.1680.980@0.23.1680.980" timestamp="1584909418418" />
+    <state width="1638" height="313" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1584910552880" />
+    <state width="947" height="362" key="GridCell.Tab.0.center/0.23.1680.982@0.23.1680.982" timestamp="1585007799387" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.23.1680.983@0.23.1680.983" timestamp="1581809247994" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.23.1680.984@0.23.1680.984" timestamp="1581869288748" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.23.1680.985@0.23.1680.985" timestamp="1581869439320" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.23.1680.986@0.23.1680.986" timestamp="1581869489335" />
+    <state width="976" height="183" key="GridCell.Tab.0.left" timestamp="1585186923059">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="976" height="183" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585186923059" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.23.1680.972@0.23.1680.972" timestamp="1581876845667" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.23.1680.973@0.23.1680.973" timestamp="1581879328471" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.23.1680.974@0.23.1680.974" timestamp="1581879756431" />
+    <state width="1638" height="313" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1585165807390" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.23.1680.976@0.23.1680.976" timestamp="1581880233906" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.23.1680.979@0.23.1680.979" timestamp="1581889268623" />
+    <state width="1638" height="313" key="GridCell.Tab.0.left/0.23.1680.980@0.23.1680.980" timestamp="1584909418418" />
+    <state width="1638" height="313" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1584910552880" />
+    <state width="947" height="362" key="GridCell.Tab.0.left/0.23.1680.982@0.23.1680.982" timestamp="1585007799387" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.23.1680.983@0.23.1680.983" timestamp="1581809247994" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.23.1680.984@0.23.1680.984" timestamp="1581869288748" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.23.1680.985@0.23.1680.985" timestamp="1581869439319" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.23.1680.986@0.23.1680.986" timestamp="1581869489334" />
+    <state width="976" height="183" key="GridCell.Tab.0.right" timestamp="1585186923060">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="976" height="183" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585186923060" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.23.1680.972@0.23.1680.972" timestamp="1581876845668" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.23.1680.973@0.23.1680.973" timestamp="1581879328471" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.23.1680.974@0.23.1680.974" timestamp="1581879756432" />
+    <state width="1638" height="313" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1585165807391" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.23.1680.976@0.23.1680.976" timestamp="1581880233907" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.23.1680.979@0.23.1680.979" timestamp="1581889268624" />
+    <state width="1638" height="313" key="GridCell.Tab.0.right/0.23.1680.980@0.23.1680.980" timestamp="1584909418419" />
+    <state width="1638" height="313" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1584910552881" />
+    <state width="947" height="362" key="GridCell.Tab.0.right/0.23.1680.982@0.23.1680.982" timestamp="1585007799388" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.23.1680.983@0.23.1680.983" timestamp="1581809247995" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.23.1680.984@0.23.1680.984" timestamp="1581869288748" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.23.1680.985@0.23.1680.985" timestamp="1581869439320" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.23.1680.986@0.23.1680.986" timestamp="1581869489335" />
+    <state width="947" height="362" key="GridCell.Tab.1.bottom" timestamp="1585007799386">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="947" height="362" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1584908760984" />
+    <state width="1638" height="324" key="GridCell.Tab.1.bottom/0.23.1680.975@0.23.1680.975" timestamp="1583605310787" />
+    <state width="947" height="362" key="GridCell.Tab.1.bottom/0.23.1680.982@0.23.1680.982" timestamp="1585007799386" />
+    <state width="947" height="362" key="GridCell.Tab.1.center" timestamp="1585007799385">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="947" height="362" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1584908760983" />
+    <state width="1638" height="324" key="GridCell.Tab.1.center/0.23.1680.975@0.23.1680.975" timestamp="1583605310786" />
+    <state width="947" height="362" key="GridCell.Tab.1.center/0.23.1680.982@0.23.1680.982" timestamp="1585007799385" />
+    <state width="947" height="362" key="GridCell.Tab.1.left" timestamp="1585007799385">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="947" height="362" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1584908760982" />
+    <state width="1638" height="324" key="GridCell.Tab.1.left/0.23.1680.975@0.23.1680.975" timestamp="1583605310785" />
+    <state width="947" height="362" key="GridCell.Tab.1.left/0.23.1680.982@0.23.1680.982" timestamp="1585007799385" />
+    <state width="947" height="362" key="GridCell.Tab.1.right" timestamp="1585007799386">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="947" height="362" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1584908760984" />
+    <state width="1638" height="324" key="GridCell.Tab.1.right/0.23.1680.975@0.23.1680.975" timestamp="1583605310786" />
+    <state width="947" height="362" key="GridCell.Tab.1.right/0.23.1680.982@0.23.1680.982" timestamp="1585007799386" />
+    <state x="195" y="243" key="RollbackChangesDialog" timestamp="1584825191020">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="195" y="243" key="RollbackChangesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584825191020" />
+    <state x="462" y="166" key="SettingsEditor" timestamp="1585010444754">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state x="462" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1584906767700" />
+    <state x="462" y="166" key="SettingsEditor/0.23.1680.980@0.23.1680.980" timestamp="1585010444754" />
+    <state x="462" y="167" key="SettingsEditor/0.23.1680.981@0.23.1680.981" timestamp="1585008503752" />
+    <state x="100" y="100" width="1480" height="850" key="dock-window-1" timestamp="1583969700429">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="dock-window-1/0.23.1680.977@0.23.1680.977" timestamp="1583969700429" />
+    <state x="210" y="323" key="git4idea.merge.GitPullDialog" timestamp="1585186958398">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="210" y="323" key="git4idea.merge.GitPullDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585186958398" />
+    <state x="309" y="432" key="git4idea.ui.GitStashDialog" timestamp="1585186884057">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="309" y="432" key="git4idea.ui.GitStashDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585186884057" />
+    <state x="286" y="380" key="git4idea.ui.GitUnstashDialog" timestamp="1585186970090">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="286" y="380" key="git4idea.ui.GitUnstashDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585186970090" />
+    <state x="468" y="222" key="new project wizard" timestamp="1583084680367">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="468" y="222" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1583084680367" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1584577481437">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1584577481437" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/runners/Wiki_Runner.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/runners/Etsy_CukesRunner.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/runners/CukesRunner.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Review/Ten.java</url>
+          <line>7</line>
+          <properties class="Review.Ten" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/RealAPI_Test/StudentTest.java</url>
+          <line>13</line>
+          <properties class="RealAPI_Test.StudentTest" method="jobFoundTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/utilities/API_Util.java</url>
+          <line>71</line>
+          <properties class="utilities.API_Util" method="hitDELETE">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,49 @@
+Class and Object Notes
+Datatypes in java
+--> Primitive datatypes
+-byte, short, boolean, char, int etc
+
+Data= information
+
+--> object datatype-not gonna have just 1 info but can store a few multiple information.(multiple Data),also store behaviors. For example substring, trim these are bahaviors or also action same thing
+-String
+-Scanner
+-Random
+
+Primitive data types :
+	-Foundation of all other tyoes:
+
+		- four categories of primitive types:
+
+		-----Integer
+		-----Floating point
+		----Character
+		----Boolean
+
+
+	Class:
+	-is a blueprint (Architecture) for an object from a single class we can create multiple objects
+
+	Class and Objects:
+	-->Class is a blueprint which we can create multiple objects from one blueprint.
+	-->Class simply declares all the types of data/information and behaviors/methods that one object should have.
+	--> One class has 2 things:
+		1.Data/Information
+		2.Behavior/method
+
+	Ex.
+
+		class dog{
+			String breed
+			int age;
+			String gender;
+			String color;
+
+			public void (){
+			System.out.println("Dog is barking");
+
+			}
+		}
+		Ka
+
+

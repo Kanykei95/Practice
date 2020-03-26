@@ -1,0 +1,288 @@
+JAN 25JAN 25
+What is Selenium?
+- Collection of jar files
+- Tool that helps us automate browsers/ UI side of the application
+- 
+Why are you using Selenium?
+- Open source
+- Can automate almost all browsers
+- Supports different programming languages: Java, Phyton, C#, Ruby, JS
+- Supports different OS ; MACOS, Windows, Linux ...
+
+What are locators?
+- Locators are methods/statements coming from Selenium library
+- Locators allows us to locate webElements using Selenium WebDriver
+
+
+
+What is a WebElement? 
+- Anything you see on an HTML page
+    - all links, titles, headers, input boxes 
+    - every single one of those are a web element of its own
+
+What method we are using to locate webElements?
+- findElement(By.locator);
+- findElement method returns : WebElement
+- it throws NoSuchElementException if it does not find a WebElement
+    ex: driver.findElement(By.name("q"));
+
+getText():
+- it gets us the text that is in between opening and closing tags
+    <div> text here </div>
+    <a href=""> text here </a>
+    <opening tag> method gets the text here </closing tag>
+
+getAttribute("attribute name");
+- it returns us the given attribute's value
+- it accepts a string parameter
+- returns a string
+    ex: 
+        <div class="h461" id="h7">
+            <div name="h313">
+                <a href="https://www.google.com"> GOOGLE </a>
+            </div>
+        </div>
+    driver.findElement(By.id("h7")).getAttribute("id"); --> returns h7
+    <---- locating our webelement-> <---getting the attribute value>
+    driver.findElement(By.id("h7")).getAttribute("class"); --> returns h461
+    driver.findElement(By.name("h313")).getAttribute("name"); --> return h313
+
+LOCATORS:
+    How many types of locators we have in Selenium?
+    - 8 locators.
+    - The reason we have 8 locators is because in some cases some of the other locators are not working.
+    - Having 8 locators assures us to locate any kind of WebElement
+    1- id : unique
+        - in some cases it might be dynamic 
+        - how do we know if it is dynamic or not?
+            id="hj35874658374568967"
+            id="search-input"
+    Dynamic webElement : if the attribute values are changing every time we refresh the page, the webElement is dynamic
+    Static webElement : if the attribute values are not changing when you refresh the page, the webElement is static 
+    2- name : looks for the attribute value of name.
+        - it doesNOT always have to be unique 
+    3- className : looks for class attribute value
+        - it doesNOT always have to be unique 
+    4- tagName : locates by the tagName. returns the first tagName that is matching. 
+    5- linkText : looks for the text of a LINK.
+        - if it is stored inside of an ANCHOR TAG. <a>
+        - looks for the text that is displayed on the page.
+        - it looks for the text that is in between the opening tag and closing tag
+        ex: <a> looks for the text here </a>
+    6- partialLinkText:
+        - similar to linkText.
+        - looks for the texts, and returns if value matches even partially
+        - similar to contains method in java.
+    7- cssSelector: 
+        - One of the locators in Selenium
+        - cssSelector has its own syntaxes
+        <div class="h461" id="h7">
+            <div name="h313">
+                <a href="https://www.google.com"> GOOGLE </a>
+            </div>
+        </div>
+        element[attribute='value'] --> div[name='h313']
+        if we are locating with a class attribute value: we use .
+        element.attributeValue -->   div.h461 
+        if we are locating with an id attribute value: we use #
+        element#attributeValue --> div#h7
+        How do you go to child using cssSelector?
+A       <div class="h461" id="h7">
+B           <div name="h313">
+                <a href="https://www.google.com"> GOOGLE </a>
+            </div>
+        </div>
+        div#h7 > div ==> we locate element at A and we move to direct child that is at B
+        div#h7 > div > a
+    8- xpath: 
+        -> it has its own syntax different from cssSelector
+        -> there are 2 types of xpath locators
+        1- Absolute xpath:
+        -> Starts with single slash "/"
+        -> It starts from the HTML tag, and goes to child by child to desired webElement
+        -> It is not very stable
+        -> It is more confusing, and easy to break
+        ex: /html/body/div/div[4]/div[1]/a[2]
+        2- Relative xpath: 
+        --> Starts with double slash "//"
+        --> Starts from directly what webElement we pass from
+        //div --> this will directly jump to the first div that is inside of our html code
+A       <div class="h461" id="h7">
+B           <div name="h313">
+C               <a href="https://www.google.com"> GOOGLE </a>
+                <a href="https://www.google.com"> GOOGLE2 </a>
+            </div>
+        </div>
+    //div --> this will point to the div at A
+    //div[@class='h461'] --> this will specifically point/return the div at A
+    //div[@class='h461']/div --> this will locate div at A, and move to B
+    //div[@class='h461']//a -->
+    //element[.='text displayed on the page'] --> if you want to locate using xpath and exact matching text
+    //a[.='GOOGLE'] --> this line returns the webElement at C
+    //a[.='GOOGLE']/.. --> this will go to the direct parent, and return webElement at B
+A       <div class="h461" id="h7">
+B           <div name="h313">
+C               <a href="https://www.google.com"> GOOGLE </a>
+D               <a href="https://www.google.com"> GOOGLE2 </a>
+            </div>
+        </div>
+        if I want to locate the second anchor at D
+        //div[@name='h313']/a[2]
+        (//a)[2] --> this is only for siblings, wont move to parent child
+A       <div>
+B           <div>
+C               <a href="https://www.google.com"> GOOGLE </a>
+D               <a href="https://www.google.com"> GOOGLE2 </a>
+            </div>
+        </div>
+        
+        How to get the div at B?
+        //a[.='GOOGLE']/.. --> we locate C first, and move to parent B to locate
+        //a[.='GOOGLE']/../.. --> moves to div that is at A
+- When we are using xpath and it gets kind of complicated, our goal is to find one stable/unique webElement. And move to our target from that point.
+- It does not have to be parent, or child, or direct parent, or direct child, as long as it is stable and unique we can use it.
+
+
+--> StaleElementReferenceException: Your driver will throw this exception when there is some kind of navigation on the page, such as: navigate().forward, back(), refresh().
+    - Even if the webElement is displayed on the page, the current driver will lose its reference to this specific webElement.
+    - Therefore we need to re-locate this webElement for our driver to get the new reference
+element attribute value
+element[attribute='value']
+//element[@attribute='value']
+https://stackoverflow.com/questions/16788310/what-is-the-difference-between-cssselector-xpath-and-which-is-better-with-resp
+
+
+What is Maven?
+- Build automation tool helps us create projects with certain structure.
+What is BUILD?
+    
+1- Create folder
+2- Java jar files
+3- Create class 
+4- Compile our code
+5- Test
+6- Deploy
+- The process of creating folders, adding dependencies, compiling our code, testing, and deploying is called BUILD.
+- Maven automates all of these processes for us.
+- Maven is JAVA BUILD automation tool.
+- It is mainly used for JAVA projects, but it is also able to work with other programming langugages as well.
+- pom.xml file is one of the most important parts of maven project.
+- it allows us to centralize controlling/adding/managing dependencies.  
+    -what is a dependency: it is a jar file that we add to our project to add any additional tools. such as: 
+        1- selenium dependency
+        2- bonigarcia : WebDriverManager
+
+
+Why do you use Mave? What is important about Maven?
+    -pom.xml file allows us to manage our dependencies from one file.
+
+WHere does maven store the dependencies?
+    - ~/.m2 : maven creates  an invisible folder called .m2
+
+-What other tools similar to Mave?
+    -Ant
+    -Gradle
+
+-IS Maven for automation engineers?
+    -NO
+    -We will be using Maven to manage our dependecies
+
+-pom.xml stands for 'project object model'
+
+-Normally you are able to run your maven project from Command Line or Termiinal
+    commands: mvn test
+                mvn compile
+                ... 
+
+-To be able to run maven projects from terminal/command line, we need to download Maven to our computer.
+    -how to download maven to mac? Windows?
+
+
+    -----------------------------------------------------------------------------------------------------------------------------------
+
+    * driver.manage().timeouts().implicitelyWait(15, TimeUnit.Seconds);
+    -implicitWait is a type of Selenium Waits.
+    -implicitWait will check DOM (HMTL PAGE) and wait until given seconds if there are any web elements not available
+    -implicitWait will continue whenn the page is loaded.
+    -it does not have to wait untl given seconds if the page is loaded
+        usually goes after maximize method in the very begining
+        will wait for 15 seconds untill page is loaded basically
+
+
+
+
+    *Theread.sleep(2000); --> this is not Selenium.
+    -thread.sleep comes from java
+    -stops the running of the code for the given milliseconds
+    -not reccommended to use in code
+
+-----------------------------------------------------------------------------------------------------------
+
+CheckBoxes & RadioButtons
+    -CheckBoxes: you can select more than one option at a time
+    -Radio buttons: you can only selcet one option at once
+
+How do we handle checkboxes and radioboxes in selenium?
+    -.isSelected();--> if checkboes is selected it will return true, else false
+    -.isEnabled();--> if checkboxes is enabled on the page, it will return true
+
+    syntax:WebElement checkbox = driver.findElemtn(By.locator);
+        checkbox.click();
+
+        checkbox.isSelected()--> will return true if the checkbox is selected
+
+
+Jan26
+
+Checkboxes and radio button:
+How do we handle checkboxes?
+    - we have two methods.
+    1- .isSelected() -> 
+        -returns a boolean value
+        -if checkbox is selected method returns true
+        -if checkbox is NOT selected method returns false
+    2- .isEnabled() ->
+        -returns a boolean value
+        -if checkbox/webElement is enabled/actionable, method returns true
+        -else, method returns false
+------
+    --> Implicit wait
+    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    --> waits upto given seconds for the page to be loaded
+    --> if page is loaded earlier, it will let program execution continue
+    --> difference between Thread.sleep() and implicit wait:
+        --> Thread.sleep will wait for the given seconds no matter what.
+        --> Thread.sleep does not check for any condition. It just stops running the execution of the program.
+        --> Thread.sleep has a checked exception. We need to either surround with try-catch or throw it out of the method.
+-------
+    MAVEN -->
+    - Build automation tool
+    What is build?
+    The process of creating folders, managing dependencies, compiling our code, testing, and deploying is called Build.
+    Maven folder structure
+        src
+            main
+                -actual application code goes here
+            test
+                -unit tests goes here
+        pom.xml
+        target
+    --> pom.xml 
+        -> we manage dependencies from pom.xml file
+                maintaining version
+    --> target folder:  the results of our actions in maven are stored in target folder. 
+-----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+

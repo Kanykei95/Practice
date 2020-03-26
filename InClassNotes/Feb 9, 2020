@@ -1,0 +1,126 @@
+Feb 9, 2020
+1- Create a new Maven project
+        - File -> New -> Project -> Next
+        - GroupId : company name
+                com.cybertek
+        - ArtifactId : projectName
+                chicago14-cucumber-junit
+        -> next : where shows the project name and where the project will be stored
+        -> next: open project in new window
+2- Add dependencies into pom.xml file
+    - java selenium
+    - WebDriverManager  (boni garcia)
+    - JavaFaker
+    - cucumber-junit 
+    - cucumber-java
+    cucumber.io
+    DEPENDENCIES
+     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.141.59</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>3.8.0</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
+        <dependency>
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>4.2.0</version>
+        </dependency>
+    </dependencies>
+    to enable auto import
+    MAC: IntelliJ > Preferences > search: auto-import > select : 
+        SELECT CHECKBOX - Add unambiguos imports on the fly
+        SELECT CHECKBOX - Optimize imports on the fly
+    MAC: IntelliJ > Settings > search: auto-import > select : 
+        SELECT CHECKBOX - Add unambiguos imports on the fly
+        SELECT CHECKBOX - Optimize imports on the fly   
+3- configuration.properties file on the project level
+    right click on the project > new > file > name it: configuration.properties
+4- create new package under test/java : "utilities"
+5- copying Config class and Driver class from previous project and pasting under utilities package into the new project
+6- if project is complaning in the Driver class about switch statements, just switch to if conditions
+7- create new package under test/java : "pages"
+8- create new package under test/java : "runners"
+9- create new package under test/java : "steps"
+ 10- create new DIRECTORY under test: "resources"
+    - all the test data, features will go under resources directory
+11- create new directory under resources: "features"
+12- MAC: preferences > plugins > search for "cucumber for java" install
+    It should ask for "Gherkin" plug in to be installed as well. 
+    Just accept and install and click "Restart IDE"
+13- Create a new class under runners package: "CukesRunner"
+14- Add new annotation outside of the class:
+    @RunWith(Cucumber.class) --> This line forces CukesRunner class to run with Cucumber
+15- Add new annotation under @RunWith annotation: "@CucumberOptions()"
+    1- we will be passing the path to our feature files, step definitions
+    2- also we will generate the report under here
+    3- and we will have the option to run different tests using tags
+    ex. @CucumberOptions(
+         features = "source/test/resources/features". -> will let our runner class know where to look fo the feature files
+         glue="steps"   -> is used for specifying the step 
+        )
+
+16 right click to "feature" directory under resources 
+    create new file> "google.feature"
+    When you go to work, do not create a feature file named "google.feature"
+
+17- we start writing details about the feature that we would like to automate
+    Feature: keyword is used to give explanation about the feature that will be covered in this feature file.
+    -> anything we type until using "Scenario" keyword will be accepted as  additional information about that feature file.
+    Scenario: keyword is used to give brief explanation about that specific scenario
+    Given, When, Then, And 
+18- run and get unimplemented step definitions in the console
+19- create a new class under steps package: "Google_Steps"
+    copy&paste step definitions inside of this class.
+20- go to configuration.properties file
+    add key=value : browser=chrome
+THE CYCLE OF CREATING FEATURE FILE, AND IMPLEMENTING THE CODE BEHIND STEPS:
+1- We create a new feature file.
+2- Add definitions/extra information about the feature after using Feature keyword.
+    Feature: Additional information about the feature we are covering in this feature file
+3- We write "Scenario:" keyword and add extra information about the scenario 
+4- We start creating steps for the newly created Scenario using cucumber keywords such as Given, When, Then, And
+    
+    Given: usually used for creating pre conditions for the scenario
+    ex: Given User is logged in to the account and sees title contains users username
+    When User clicks to something
+    And User search something
+    Then User sees something happening
+5- After being done with the Scenario steps, we run the runner class to get the auto generated step_definition methods in the console
+6- Create a new step_definitions class under step_definitions package, and implement/add code(java-selenium...) inside of the methods
+    => every feature file you create under features directory, you need to create step_definitions CLass to implement steps
+    -every step inside of the feature files are re-usable methods.
+    -when you need to do the same actions, you can just re-use previously created steps.
+ 
+    => every feature file you create under features directory, you need to create step_definitions CLass to implement steps
+    -every step inside of the feature files are re-usable methods.
+    -when you need to do the same actions, you can just re-use previously created steps.
+    -we create the running order of the tests from the feature file steps.
+    -when we run a scenario, it will get the step, and find the matching step definition, and run it.
+    -then it will move to the next step, and keep doing same.
+
+
+
+
+
